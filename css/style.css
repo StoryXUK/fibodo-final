@@ -40,7 +40,7 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 html{overflow-y: scroll;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
-h1, h2, h3, h4, h5, h6{font-weight: 400;}
+h1, h2, h3, h4, h5, h6{font-weight: 200;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 blockquote, q {quotes: none;}
@@ -1054,7 +1054,7 @@ span.pagination{border: none;}
 .banner-shortcode.style-3{background-size: cover; background-position: right top; position: relative;}
 .banner-shortcode.style-3 .angle-left{width: 0; height: 0; border-style: solid; border-width: 15px 15px 15px 0; border-color: transparent #fff transparent transparent; position: absolute; right: 0; top: 50%; margin-top: -7px;}
 .banner-shortcode.style-3 .angle-right{width: 0; height: 0; border-style: solid; border-width: 15px 0 15px 15px; border-color: transparent transparent transparent #fff; position: absolute; left: 0; top: 50%; margin-top: -7px;}
-.banner-shortcode.style-3 .valign-middle-cell{height: 480px; padding: 30px 50px; display: table-cell; width: 10000px; vertical-align: middle;}
+.banner-shortcode.style-3 .valign-middle-cell{height: 480px; margin: 10px; padding: 30px 50px; display: table-cell; width: 10000px; vertical-align: middle;}
 .banner-shortcode.style-3 .valign-middle-content{max-width: 390px;}
 .banner-shortcode.style-3 .slider-product-preview+.valign-middle-content{max-width: 50%;}
 /*Desktops (>=1200px)*/
