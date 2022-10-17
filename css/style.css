@@ -58,13 +58,15 @@ b, strong{font-weight: 700;}
 ul, ol{list-style: none;}
 a{color: inherit;}
 
-
+.container-home {padding-left: 2.5%; max-width: 97.5%;}
+.third {}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - GLOBAL SETTINGS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*main*/
 #content-block{position: relative; overflow: hidden; left: 0;}
 .container{max-width: 100%; position: relative;}
+.container-home {padding-left: 2.5%; max-width: 97.5%;}
 .container-fluid{position: relative;}
 .content-margins{position: relative; border-left: 50px transparent solid; border-right: 50px transparent solid;}
 @media (max-width: 991px) {
