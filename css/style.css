@@ -92,7 +92,7 @@ body.mobile .swiper-container.page-height .swiper-pagination{display: none;}
 .cell-view{display: table-cell; vertical-align: middle; width: 10000px;}
 .cell-view.page-height{position: relative; z-index: 1;}
 .cell-view.simple-banner-height{height: 600px;}
-.cell-view.simple-banner-height.middle{height: 700px;}
+.cell-view.simple-banner-height.middle{height: 400px;}
 .cell-view.simple-banner-height.big{height: 800px;}
 /* Tablets (>=768px)*/
 @media (max-width: 991px) {
