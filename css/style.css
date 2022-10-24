@@ -1278,7 +1278,7 @@ span.pagination{border: none;}
 .category-link:hover, .category-link.active{color: #b8cd06;}
 .category-link span{width: 20px; text-align: right; position: absolute; left: 0; top: 15px;}
 /**/
-.client-logo-entry{overflow: hidden; border: 1px #eee solid; float: left; width: 20%; position: relative; margin: -1px 0 0 -1px;}
+.client-logo-entry{overflow: hidden; border: 1px #eee solid; float: left; width: 10%; position: relative; margin: -1px 0 0 -1px;}
 .client-logo-entry img{display: block; width: 100%; height: auto; transition: all .5s; -webkit-transition: all .5s;}
 .client-logo-entry:hover img{transform: translateY(-100%); -webkit-transform: translateY(-100%);}
 .client-logo-entry img:nth-child(2){position: absolute; left: 0; top: 0; transform: translateY(100%); -webkit-transform: translateY(100%);}
