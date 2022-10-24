@@ -205,6 +205,17 @@ body.mobile .fixed-background{background-attachment: scroll;}
 .title-underline.left span:after{display: none;}
 .title-underline.right{margin-right: 9px;}
 .title-underline.right span:before{display: none;}
+
+/* Custom */
+
+.align-left {text-align: left;}
+
+.min-height {min-height: 250px;}
+
+.padding-top {padding-top: 25px;}
+
+.margin-right {margin-right: 15px;}
+
 /*Desktops (>=992px)*/
 @media (max-width: 1199px) {
 	.simple-article h1, .h1{font-size: 46px; line-height: 46px;}
