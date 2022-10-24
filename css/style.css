@@ -216,6 +216,12 @@ body.mobile .fixed-background{background-attachment: scroll;}
 
 .margin-right {margin-right: 15px;}
 
+.section-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #343434;
+}
+
 /*Desktops (>=992px)*/
 @media (max-width: 1199px) {
 	.simple-article h1, .h1{font-size: 46px; line-height: 46px;}
