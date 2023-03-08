@@ -76,12 +76,10 @@ nav.navbar.bootsnav ul.nav > li > a{
 }
 
 nav.navbar.bootsnav ul.nav > li > a:hover {
-    border-bottom: 1px solid #000;
-    border-width: 3px;
-    padding-bottom: 3px;
+    
     color: #060606;
     /* text-decoration: underline; */
-    font-weight: 300;
+    font-weight: 500;
 }
 
 nav.navbar.bootsnav.dark ul.nav > li > a, nav.navbar.bootsnav.dark .attr-nav > ul > li > a{
@@ -89,7 +87,7 @@ nav.navbar.bootsnav.dark ul.nav > li > a, nav.navbar.bootsnav.dark .attr-nav > u
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
-text-decoration: underline;}
+text-decoration: none;}
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:focus,
 nav.navbar.bootsnav ul.nav li.active > a:hover,
 nav.navbar.bootsnav ul.nav li.active > a:focus,
@@ -98,7 +96,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
     color: #1d1d1d;
     background-color: transparent;
     
-    text-decoration: underline;
+    
 }
 
 nav.navbar.bootsnav .navbar-toggle{
