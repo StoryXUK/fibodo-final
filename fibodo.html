@@ -4,14 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="StoryX">
+  <meta name="fibodo" content="fibodo">
   <!-- description -->
-  <meta name="description" content="StoryX: UX/UI Design Agency, Web Design, Development and Sustainability">
+  <meta name="description" content="Fibodo manages all of your client bookings and courses for you, so you can focus on increasing your
+    earnings. Fibodo isn’t reliant on a shopping basket, so uniquely your clients can manage, amend and
+    reschedule their own bookings on line, within the terms you set, so you do not have to. This means happy
+    customers and no administration.">
   <!-- keywords -->
-  <meta name="keywords"
-    content="creative, animation, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html5, css3, studio, branding, creative design, multipurpose, parallax, personal, masonry, grid, coming soon, carousel, career">
+  <meta name="keywords" content="Golf, Booking Management, Leisure, Health, Fitness">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>fibodo | StoryX</title>
+  <title>fibodo</title>
   <link rel="shortcut icon" href="assets/images/favicon.ico">
 
   <!-- Core Style Sheets -->
@@ -27,99 +29,78 @@
 
 <body>
 
-  <!--== Loader Start ==-->
-  <div id="loader-overlay">
-    <div class="loader">
-      <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-        y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
-        <rect x="20" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="30" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0.2s" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="40" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0.4s" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-      </svg>
-    </div>
-  </div>
-  <!--== Loader End ==-->
+
 
   <!--== Wrapper Start ==-->
   <div class="wrapper">
 
-    <!--== Header Start ==-->
-    <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
-      <!--== Start Top Search ==-->
-      <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close"
-          id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
-        <div id="fullscreen-search-wrapper">
-          <form method="get" id="fullscreen-searchform">
-            <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input"
-              class="search-bar-top">
-            <i class="fullscreen-search-icon icofont icofont-search">
-              <input value="" type="submit">
-            </i>
-          </form>
+
+    <!--== Top Bar Start ==-->
+    <!-- <div class="top-bar dark-bg pt-10 pb-10">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-6 col-xs-12 text-right xs-text-center">
+            <span class="white-color">Promobaner</span>
+          </div>
         </div>
       </div>
-      <!--== End Top Search ==-->
+    </div> -->
+    <!--== Top Bar End ==-->
 
-
+    <!--== Header Start ==-->
+    <nav class="navbar navbar-default bootsnav on no-full">
 
       <div class="container">
-        <!--== Start Atribute Navigation ==-->
-        <div class="attr-nav hidden-xs sm-display-none">
-          <ul class="social-media-dark social-top">
-            <li><a target="_blank" href="https://www.facebook.com/StoryXuk" class="icofont icofont-social-facebook"></a>
-            </li>
-            <li><a target="_blank" href="https://www.instagram.com/storyxuk/"
-                class="icofont icofont-social-instagram"></a></li>
-            <li><a target="_blank" href="https://twitter.com/StoryX_uk" class="icofont icofont-social-twitter"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/storyxuk/"
-                class="icofont icofont-social-linkedin"></a></li>
-            <li><a target="_blank" href="https://wa.me/447496156914" class="icofont icofont-social-whatsapp"></a></li>
 
-          </ul>
-        </div>
-        <!--== End Atribute Navigation ==-->
 
         <!--== Start Header Navigation ==-->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i
               class="tr-icon ion-android-menu"></i> </button>
-          <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo-white.png"
-                alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+          <div class="logo"> <a href="index.html"><img class="logo logo-scrolled" src="assets/images/logo-black.png"
+                alt=""> </a> </div>
         </div>
         <!--== End Header Navigation ==-->
 
         <!--== Collect the nav links, forms, and other content for toggling ==-->
         <div class="collapse navbar-collapse" id="navbar-menu">
+
           <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
-            <li><a href="about.html">Our Story</a>
-            <li><a href="work.html">Our Work</a>
-            <li><a href="mission.html">Our Mission</a>
+            <!-- <li><a href="about.html">About</a></li>
+
+            <li><a href="technology.html">Technology</a></li> -->
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sectors</a>
+              <ul class="dropdown-menu">
+                <li><a href="golf.html">Golf</a></li>
+                <li><a href="modules-coach.html">Golf Pro</a></li>
+                <li><a href="gym.html">Gym</a></li>
+                <li><a href="fitness.html">Fitness</a></li>
+                <li><a href="leisure-centres.html">Leisure Centres</a></li>
+                <li><a href="pt.html">Personal Trainier</a></li>
+                <li><a href="racquet-sports.html">Racquet Sports</a></li>
+                <li><a href="swim.html">Swim</a></li>
+                
+              </ul>
+            </li>
+            
+            <li><a href="pricing-table.html">Plans</a>
+              <!-- <li><a href="features.html">Features</a>
+            <li><a href="index-golf.html">Apps</a> -->
+            <li><a href="login.html">login</a>
 
 
 
-            <li><a href="home-digital-agency.html">*Dev*</a>
 
 
           </ul>
+
+
         </div>
         <!--== /.navbar-collapse ==-->
       </div>
     </nav>
     <!--== Header End ==-->
-
-
-
-
-
 
 
     <!--== Hero Slider Start ==-->
