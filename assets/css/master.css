@@ -12185,6 +12185,16 @@ section.big-block .client-logo {
   color: #fff !important;
 }
 
+.overlay-text-small {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  text-align: center;
+  color: #fff !important;
+}
+
 .overlay-text-left {
   position: absolute;
   top: 50%;
@@ -12194,6 +12204,8 @@ section.big-block .client-logo {
   text-align: left;
   color: #fff !important;
 }
+
+
 
 
 .container-boxes {
