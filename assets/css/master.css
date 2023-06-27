@@ -12157,6 +12157,15 @@ section.big-block .client-logo {
   border-radius: 25px;
 }
 
+.pricing-box-footer {
+  position: relative;
+  height: 300px;
+  background-color: whitesmoke;
+ color: #000000;
+  /* White text color */
+  border-radius: 25px;
+}
+
 .colored-box-small {
   position: relative;
   height: 600px;
