@@ -12214,6 +12214,16 @@ section.big-block .client-logo {
   color: #fff !important;
 }
 
+.overlay-text-footer {
+  position: absolute;
+  top: 50%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-align: left;
+  color: #fff !important;
+}
+
 
 
 
